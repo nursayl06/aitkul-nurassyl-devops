@@ -1,0 +1,5 @@
+Name: Nurassyl
+Surname: Aitkul
+Group: IT2-2307
+Student ID: 37375
+Course: DevOps
