@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    image: aitkul-nurassyl-devops
+    container_name: aitkul-nurassyl-container
+    ports:
+      - "5000:5000"
+    environment:
+      STUDENT_NAME: Nurassyl
+      STUDENT_SURNAME: Aitkul
+      STUDENT_GROUP: IT2-2307
+      STUDENT_ID: "37375"
+    restart: unless-stopped
