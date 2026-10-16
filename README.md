@@ -71,6 +71,7 @@ machine called `devops`. I did all the work inside this Ubuntu machine.
 The `Jenkinsfile` describes my pipeline. Jenkins takes the code from this
 repository and runs the stages Checkout, Build, Test, Docker Build and
 Docker Run. The Jenkins Job is called `Aitkul_Nurassyl_DevOps`.
+The first build #1 finished with SUCCESS.
 
 ## Project structure
 
